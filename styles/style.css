@@ -52,6 +52,71 @@
 
 .header__address {
 }
-.cover {
-  position: relative;
 
+/* Cover styles */
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  height: 757px;  
+  color: #fff;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);  
+  width: 100%;
+  height: 100%;
+}
+
+.cover__title {
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 30px;
+    position: absolute;
+    inset: 165px 50px auto;
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text_center {
+    text-align: center;
+}
+
+.aligned-text_right{
+    text-align: end;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+    letter-spacing: normal;
+}
+
+.cover__description {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    column-gap: 78px;
+    position: absolute;
+    inset: auto 50px 50px 50px; /* Значение для левой границы блока взято симметрично. Выравнивание вложенных элементов не прявязано к левому краю. */
+}
+
+.cover__description-text {
+    font-weight: normal;
+    font-size: 22px;
+    word-spacing: 19px;
+}
+
+.bet-button {
+    background: none;
+    border: 1px solid #fff;
+    color: inherit;
+    text-transform: uppercase;
+    padding: 12px 32px;
+    font-size: 22px;
+}
