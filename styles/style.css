@@ -245,3 +245,51 @@
   grid-column: 2 / 3;
   grid-row: 3 / 4;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 50px 90px;
+}
+
+.footer__address {
+  justify-self: flex-start;
+}
+
+.footer__menu {
+}
+
+.footer__menu-list {
+  list-style: none;
+}
+
+.footer__menu-list-item {
+  text-align: center;
+}
+
+.footer__menu-link {
+  font-size: 18px;
+  text-decoration: underline; /* TODO Вынести общим свойством для всех ссылок */
+  text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer__social-list-item {
+}
+
+.footer__social-link {
+}
+
+.footer__social-icon {
+  height: 48px;
+}
