@@ -1,2 +1,1 @@
-Сайт аукциона "Оно тебе надо"
-Автор Юлия Гуревич
+https://github.com/yuliagurevich/ono-tebe-nado.git
