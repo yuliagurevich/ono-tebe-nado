@@ -266,29 +266,32 @@
 /* Footer styles */
 
 .footer {
-  display: flex;
+  display: grid;
+  grid-template: auto / repeat(3, auto);
   justify-content: space-between;
   margin: 0 50px 90px;
+  font-size: 18px;
 }
 
 .footer__address {
-  justify-self: flex-start;
+  /* Не использовала */
 }
 
 .footer__menu {
+  /* Не использовала */
 }
 
 .footer__menu-list {
-  list-style: none;
+  /* Не использовала */
 }
 
 .footer__menu-list-item {
   text-align: center;
+  list-style: none;
 }
 
 .footer__menu-link {
-  font-size: 18px;
-  text-decoration: underline; /* TODO Вынести общим свойством для всех ссылок */
+  text-decoration: underline;
   text-underline-offset: 4px;
 }
 
@@ -304,11 +307,13 @@
 }
 
 .footer__social-list-item {
+  /* Не использовала */
 }
 
 .footer__social-link {
+  /* Не использовала */
 }
 
 .footer__social-icon {
-  height: 48px;
+  width: 48px;
 }
